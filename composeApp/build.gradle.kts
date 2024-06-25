@@ -53,6 +53,7 @@ kotlin {
             implementation(libs.koin.core)
             implementation(libs.voyager.navigator)
             implementation(libs.voyager.koin)
+            implementation(project(":generativeAIKmp"))
         }
     }
 }
