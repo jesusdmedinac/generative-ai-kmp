@@ -1,0 +1,3 @@
+[submodule "generative-ai-kmp-ios"]
+	path = generative-ai-kmp-ios
+	url = https://github.com/jesusdmedinac/generative-ai-kmp-ios
