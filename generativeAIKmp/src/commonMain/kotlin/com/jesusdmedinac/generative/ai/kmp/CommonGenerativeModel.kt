@@ -1,4 +1,4 @@
 package com.jesusdmedinac.generative.ai.kmp
 
-class GenerativeModel {
+expect class CommonGenerativeModel {
 }

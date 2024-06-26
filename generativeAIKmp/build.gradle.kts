@@ -29,9 +29,13 @@ kotlin {
     }
 
     sourceSets {
+        val androidMain by getting {
+            dependencies {
+                implementation("com.google.ai.client.generativeai:generativeai:0.6.0")
+            }
+        }
         val commonMain by getting {
             dependencies {
-                //put your multiplatform dependencies here
             }
         }
         val commonTest by getting {
